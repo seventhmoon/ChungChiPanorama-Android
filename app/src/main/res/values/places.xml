@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="place_name">
+        <item>眾志堂</item>
+        <item>哲徑</item>
+        <item>曲橋</item>
+    </string-array>
+
+    <array name="place_image">
+        <item>@drawable/cct</item>
+        <item>@drawable/pond</item>
+        <item>@drawable/bridge</item>
+    </array>
+
+    <string-array name="place_image_asset">
+        <item>file:///android_asset/cct.jpg</item>
+        <item>file:///android_asset/pond.jpg</item>
+        <item>file:///android_asset/bridge.jpg</item>
+
+    </string-array>
+
+</resources>
