@@ -1,23 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="150dip"
-    android:layout_margin="8dp">
 
-    <ImageView
-        android:id="@+id/imageview_place_image"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="activity"
+            type="com.androidfung.cardboard.MainActivity"/>
+        <variable
+            name="place"
+            type="com.androidfung.cardboard.Place" />
+    </data>
+
+
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
-    <TextView
-        android:id="@+id/textview_place_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
+        android:layout_height="150dip"
         android:layout_margin="8dp"
-        android:textColor="@android:color/white"
-        android:textStyle="bold"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large.Inverse" />
+        android:onClick="@{activity.onSampleButtonClick}"
+        android:tag="@{place.panoramaUrl}">
 
-</RelativeLayout>
+        <ImageView
+            android:id="@+id/imageview_place_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:imageUrl="@{place.thumbnailUrl}"/>
+
+        <TextView
+            android:text="@{place.name}"
+            android:id="@+id/textview_place_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_margin="8dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large.Inverse"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</layout>

@@ -6,16 +6,12 @@
         <item>曲橋</item>
     </string-array>
 
-    <array name="place_image">
-        <item>@drawable/cct</item>
-        <item>@drawable/pond</item>
-        <item>@drawable/bridge</item>
-    </array>
+
 
     <string-array name="place_image_asset">
-        <item>file:///android_asset/cct.jpg</item>
-        <item>file:///android_asset/pond.jpg</item>
-        <item>file:///android_asset/bridge.jpg</item>
+        <item>file:///android_asset/cct.webp</item>
+        <item>file:///android_asset/pond.webp</item>
+        <item>file:///android_asset/bridge.webp</item>
 
     </string-array>
 
