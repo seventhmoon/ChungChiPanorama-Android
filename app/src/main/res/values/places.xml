@@ -4,6 +4,14 @@
         <item>眾志堂</item>
         <item>哲徑</item>
         <item>曲橋</item>
+
+        <item>暉社台</item>
+        <item>小橋流水</item>
+        <item>許讓成樓</item>
+        <item>何草</item>
+        <item>崇基門</item>
+        <item>獅子亭</item>
+        <item>哲徑</item>
     </string-array>
 
 
@@ -12,7 +20,13 @@
         <item>file:///android_asset/cct.webp</item>
         <item>file:///android_asset/pond.webp</item>
         <item>file:///android_asset/bridge.webp</item>
-
+        <item>file:///android_asset/faisetoi.jpg</item>
+        <item>file:///android_asset/siukiulauseui.jpg</item>
+        <item>file:///android_asset/hys.jpg</item>
+        <item>file:///android_asset/hochou.jpg</item>
+        <item>file:///android_asset/sunggeimun.jpg</item>
+        <item>file:///android_asset/sijiting.jpg</item>
+        <item>file:///android_asset/jitging.jpg</item>
     </string-array>
 
 </resources>

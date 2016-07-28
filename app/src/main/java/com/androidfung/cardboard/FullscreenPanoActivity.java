@@ -15,7 +15,8 @@ import android.view.View;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.animation.GlideAnimation;
 import com.bumptech.glide.request.target.SimpleTarget;
-import com.google.vrtoolkit.cardboard.widgets.pano.VrPanoramaView;
+import com.google.vr.sdk.widgets.pano.VrPanoramaView;
+
 
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.
@@ -120,6 +121,7 @@ public class FullscreenPanoActivity extends AppCompatActivity {
         // operations to prevent the jarring behavior of controls going away
         // while interacting with the UI.
 //        findViewById(R.id.dummy_button).setOnTouchListener(mDelayHideTouchListener);
+
 
         mPanoWidgetView = (VrPanoramaView) findViewById(R.id.pano_view);
 //        mPanoWidgetView.setEventListener(new ActivityEventListener());
